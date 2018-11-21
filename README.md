@@ -1,5 +1,7 @@
 # Practica-33
 ´´´
+
+
 function readFromTable() {
   var ss = SpreadsheetApp.getActive();
   var sheetDetails = ss.getSheetByName("Details");
@@ -53,6 +55,7 @@ function readFromTable() {
     SpreadsheetApp.getActive().toast(err.message);
     }
 }
+
 
 
 ´´´
